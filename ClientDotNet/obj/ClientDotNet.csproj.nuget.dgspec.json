@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\FSM\\S2\\SystemesInfosDistribueesMiddlewares\\handingWithVedios\\WebServices_SOAP_WSDL_UDDI\\ClientDotNet\\ClientDotNet.csproj": {}
+  },
+  "projects": {
+    "E:\\FSM\\S2\\SystemesInfosDistribueesMiddlewares\\handingWithVedios\\WebServices_SOAP_WSDL_UDDI\\ClientDotNet\\ClientDotNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FSM\\S2\\SystemesInfosDistribueesMiddlewares\\handingWithVedios\\WebServices_SOAP_WSDL_UDDI\\ClientDotNet\\ClientDotNet.csproj",
+        "projectName": "ClientDotNet",
+        "projectPath": "E:\\FSM\\S2\\SystemesInfosDistribueesMiddlewares\\handingWithVedios\\WebServices_SOAP_WSDL_UDDI\\ClientDotNet\\ClientDotNet.csproj",
+        "packagesPath": "C:\\Users\\ayoub\\.nuget\\packages\\",
+        "outputPath": "E:\\FSM\\S2\\SystemesInfosDistribueesMiddlewares\\handingWithVedios\\WebServices_SOAP_WSDL_UDDI\\ClientDotNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayoub\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
